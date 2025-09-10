@@ -1,0 +1,33 @@
+# Maven build directory
+/target/
+
+# Logs
+*.log
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java build
+*.class
+
+# Backup files
+*.bak
+*~
+
+# Environment / Secrets (nếu có)
+/.env
+application-*.yml
+application-*.properties
+
+# Git
+!.gitignore
