@@ -3,4 +3,4 @@
 <%@ taglib prefix = "core" uri = "jakarta.tags.core" %>
 
 
-<core:redirect url = "/login"></core:redirect>
+<core:redirect url = "/home"></core:redirect>

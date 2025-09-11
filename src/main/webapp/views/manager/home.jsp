@@ -18,5 +18,12 @@
 	<form action="${pageContext.request.contextPath}/manager/category/list" method="get" style="display:inline;">
 		<button type="submit">Xem list</button>
 	</form>
+	
+	<!-- Nút xem profile -->
+	<form action="${pageContext.request.contextPath}/manager/profile"
+		method="get" style="display: inline;">
+		<button type="submit">Edit profile</button>
+	</form>
+	
 </body>
 </html>

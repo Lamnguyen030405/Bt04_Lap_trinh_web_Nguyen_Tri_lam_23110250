@@ -10,13 +10,10 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="${pageContext.request.contextPath}/home">Trang Chủ</a>
-
-        <div class="d-flex ms-auto">
-            <a href="${pageContext.request.contextPath}/login" class="btn btn-outline-light">Đăng nhập</a>
-        </div>
+        <a class="navbar-brand" href="${pageContext.request.contextPath}/manager/home">Quản lý</a>
+        <a class="nav-link text-white ms-auto" href="${pageContext.request.contextPath}/logout">Đăng xuất</a>
     </div>
 </nav>
 
@@ -25,7 +22,7 @@
 </div>
 
 <footer class="text-center mt-5 py-3 bg-light">
-    <p class="mb-0">&copy; 2025 My Website</p>
+    <p class="mb-0">Bảng điều khiển quản trị - &copy; 2025</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
